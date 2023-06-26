@@ -1,0 +1,26 @@
+.navbar-collapse .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #00bcd4;
+}
+.btn-card {
+    position: relative;
+}
+.btn-card svg {
+    width: 24px;
+    height: 24px;
+    color: #403938;
+}
+.btn-card .count_item {
+    position: absolute;
+    right: -7px;
+    top: -10px;
+    min-width: 12px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 8px;
+    border-radius: 10px;
+    color: #fff;
+    border: solid 1px #00bcd4;
+    text-align: center;
+    background: #00bcd4;
+}

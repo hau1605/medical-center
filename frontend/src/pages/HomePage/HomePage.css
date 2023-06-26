@@ -1,0 +1,129 @@
+@media only screen and (max-width: 1150px) {
+    .button-container {
+        display: none;
+    }
+    .col-new-mobile {
+        display: flex;
+    }
+    
+}
+@media only screen and (min-width: 1151px) {
+    .col-new-mobile {
+        display: none;
+        padding-bottom: 10px;
+    }
+}
+.home-section-1, 
+.home-section-2, 
+.home-section-3, 
+.home-section-4 {
+    padding: 40px 0;
+}
+.home-section-2 .title,
+.home-section-3 .title,
+.home-section-4 .title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.home-section-2 .title .about_card-decor,
+.home-section-3 .title .about_card-decor,
+.home-section-4 .title .about_card-decor {
+    margin: auto;
+    width: 48px;
+}
+.home-section-2,
+.home-section-4 {
+    background-color: #f6f7f9;
+}
+
+.home-section-1,
+.home-section-3 {
+    background-image: url(//bizweb.dktcdn.net/100/382/483/themes/758809/assets/bg-bottom-right.png?1677379206119);
+    position: relative;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-attachment: fixed;
+}
+.about_card-number {
+    font-family: "Montserrat",sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 1em;
+    color: #00bcd4;
+}
+.about_card-text {
+    font-size: 16px;
+    line-height: initial;
+    font-weight: 600;
+    font-family: "Montserrat",sans-serif;
+    color: #444;
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+.about_card-decor {
+    width: 33px;
+    height: 3px;
+    background-color: #00bcd4;
+}
+
+.home-section-2 .button-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.home-section-2 .btn-test {
+    background-color: white;
+    padding: 16px 0;
+    margin: 5px;
+    outline: solid 0px red;
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    width: calc(100% / 6 - 10px);
+    transition: all ease 0.3s;
+}
+
+.home-section-2 .btn_new_focus,
+.home-section-2 .btn-test:hover {
+    background-color: #14dbf4;
+    color: white;
+    outline: solid 0px red;
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition-property: all;
+    box-shadow: 0px 4px 12px rgba(124, 124, 124, 0.19);
+}
+.home-section-2 .btn-test p {
+    margin: 0;
+}
+.home-section-2 .col-new-mobile .btn-test {
+    width: 100%;
+    height: 90%;
+}
+.home-section-2 .section_service .content {
+    padding-top: 20px;
+}
+.home-section-3 .product-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+.home-section-3 .section_product-card .card-link {
+    text-decoration: none;
+}
+.home-section-3 .section_product-card .card {
+    background-color: #f6f7f9;
+    border: none;
+}
+.home-section-3 .section_product-card .card-link:hover .card {
+    background-color: #f6f7f9;
+    color: #1677ff;
+    box-shadow: 0 1px 4px rgb(0, 188, 212 , 60%);
+    transition: all ease 0.4s;
+}
